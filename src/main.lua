@@ -1,6 +1,6 @@
 
-if false then
-  print('你好,真世界');
-else
-  print('你好,假世界');
+function foo()
+  function bar() end
 end
+
+print "你好,世界"
